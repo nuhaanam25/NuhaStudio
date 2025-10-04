@@ -1,0 +1,643 @@
+@media (max-width: 768px) {
+    .navbar .d-flex {
+      justify-content: center;
+      margin-top: 1rem;
+}
+
+    .navbar-collapse {
+      background-color: rgba(26, 15, 43, 0.85);
+      backdrop-filter: blur(10px);
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+    }
+
+    .navbar-collapse.show {
+      transform: translateX(0);
+    }
+
+    body[data-bs-theme="light"] .navbar-collapse {
+      background-color: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+    }
+
+    .navbar-collapse .nav-link {
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+    }
+
+    .navbar-collapse.show .nav-link {
+      transform: translateX(0);
+    }
+
+    .navbar-collapse.show .nav-link:nth-child(1) {
+      transition-delay: 0s;
+    }
+
+    .navbar-collapse.show .nav-link:nth-child(2) {
+      transition-delay: 0.05s;
+    }
+
+    .navbar-collapse.show .nav-link:nth-child(3) {
+      transition-delay: 0.1s;
+    }
+
+    .navbar-collapse.show .nav-link:nth-child(4) {
+      transition-delay: 0.15s;
+    }
+
+    .navbar-collapse.show .nav-link:nth-child(5) {
+      transition-delay: 0.2s;
+    }
+
+    .navbar-collapse.show .nav-link:nth-child(6) {
+      transition-delay: 0.25s;
+    }
+
+    .navbar-collapse.show .nav-link:nth-child(7) {
+      transition-delay: 0.3s;
+    }
+}
+
+/* Responsive Styles for Tablets and Small Screens */
+@media (max-width: 768px) {
+    .hero-section {
+      padding-top: 100px;
+      padding-bottom: 40px;
+  }
+
+    .hero-section h1 {
+      font-size: 2.5rem;
+      min-height: 65px;
+  }
+
+    .title-text {
+      font-size: 1.8rem;
+    }
+
+    .welcome-text {
+      font-size: 0.9rem;
+      letter-spacing: 1.5px;
+    }
+
+    .description {
+      font-size: 1rem;
+    }
+
+    .buttons-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .my-projects-btn,
+    .download-cv-btn {
+      width: 100%;
+      margin-right: 0;
+      text-align: center;
+    }
+
+    .social-icons {
+      justify-content: center;
+      display: flex;
+      margin-top: 1.5rem;
+    }
+
+    .stats {
+      gap: 1.5rem;
+      padding: 1.5rem 1rem;
+    }
+
+    .stat-item {
+      min-width: 120px;
+    }
+
+    .stat-item h3 {
+      font-size: 1.5rem;
+    }
+
+    .stat-item p {
+      font-size: 0.85rem;
+    }
+
+    .image-frame {
+      max-width: 300px;
+      height: 350px;
+      padding: 1.5rem;
+    }
+
+    .scroll-down-wrapper {
+      display: none;
+    }
+
+    /* About and Skills responsive */
+    .section-title {
+      font-size: 2rem;
+    }
+
+    .about-description {
+      font-size: 1rem;
+      text-align: left;
+    }
+
+    .about-image {
+      max-width: 60%;
+      max-height: 250px;
+    }
+
+    .skills-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .skill-item {
+      padding: 1.5rem;
+  }
+}
+
+  /* Responsive Styles for Mobile Phones */
+  @media (max-width: 576px) {
+    .hero-section {
+      padding-top: 90px;
+      min-height: auto;
+      padding-bottom: 30px;
+    }
+
+    .hero-section h1 {
+      font-size: 2rem;
+      min-height: 55px;
+    }
+
+    .title-text {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .welcome-text {
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+    }
+
+    .description {
+      font-size: 0.95rem;
+      max-width: 100%;
+    }
+
+    .buttons-group {
+      margin-top: 1rem;
+    }
+
+    .my-projects-btn,
+    .download-cv-btn {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+
+    .social-icons a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 1.1rem;
+      margin-right: 1rem;
+    }
+
+    .stats {
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1.5rem 0.5rem;
+    }
+
+    .stat-item {
+      min-width: 100%;
+    }
+
+    .stat-item h3 {
+      font-size: 1.8rem;
+    }
+
+    .stat-item p {
+      font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+      width: 60px;
+      height: 45px;
+      font-size: 1.3rem;
+    }
+
+    .logo-text {
+      font-size: 0.9rem;
+    }
+
+    .contact-btn {
+      padding: 8px 20px;
+      font-size: 0.9rem;
+    }
+
+    .theme-switch-wrapper {
+      font-size: 1.3rem;
+    }
+
+    /* About and Skills mobile */
+    .section-title {
+      font-size: 1.8rem;
+    }
+
+    .about-description {
+      font-size: 0.95rem;
+      text-align: left;
+    }
+
+    .about-image {
+      max-width: 50%;
+      max-height: 200px;
+    }
+
+    .skill-item {
+      padding: 1.5rem;
+    }
+
+    .skill-icon {
+      width: 50px;
+      height: 50px;
+      font-size: 1.2rem;
+    }
+
+    .skill-item h4 {
+      font-size: 1.1rem;
+    }
+
+    .skill-item p {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Extra Small Devices */
+  @media (max-width: 768px) {
+    .welcome-text {
+      font-size: 0.8rem;
+    }
+
+    .description {
+      font-size: 0.9rem;
+    }
+
+    .my-projects-btn,
+    .download-cv-btn {
+      padding: 10px 18px;
+      font-size: 0.85rem;
+    }
+
+    .social-icons a {
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+      font-size: 0.9rem;
+      margin-right: 0.8rem;
+    }
+  }
+
+  /* Projects Section Responsive */
+  @media (max-width: 768px) {
+    .projects-container {
+      padding: 0 1rem;
+    }
+
+    .projects-title {
+      font-size: 2rem;
+    }
+
+    .projects-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .filter-buttons {
+      gap: 0.5rem;
+    }
+
+    .filter-btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .projects-title {
+      font-size: 1.8rem;
+    }
+
+    .project-content {
+      padding: 1rem;
+    }
+
+    .project-description {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Projects Controls Responsive */
+  @media (max-width: 768px) {
+    .projects-controls {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 0 1rem;
+    }
+
+    .counter-text {
+      font-size: 0.9rem;
+    }
+
+    .view-all-btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .projects-controls {
+      padding: 0 0.5rem;
+    }
+
+    .view-all-btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  /* View All Container Responsive */
+  @media (max-width: 768px) {
+    .view-all-container {
+      padding: 0 1rem;
+      margin: 2rem 0 1rem 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .view-all-container {
+      padding: 0 0.5rem;
+    }
+
+    .view-all-container .view-all-btn {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+
+  /* Certificates Section Responsive */
+  @media (max-width: 768px) {
+    .certificates-container {
+      padding: 0 1rem;
+    }
+
+    .certificates-title {
+      font-size: 2rem;
+    }
+
+    .certificates-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .certificate-actions {
+      flex-direction: column;
+    }
+
+    .certificate-verify-btn,
+    .certificate-download-btn {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .certificates-title {
+      font-size: 1.8rem;
+    }
+
+    .certificate-content {
+      padding: 1rem;
+    }
+
+    .certificate-description {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Testimonials Section Responsive */
+  @media (max-width: 768px) {
+    .testimonials-container {
+      padding: 0 1rem;
+    }
+
+    .testimonials-title {
+      font-size: 2rem;
+    }
+
+    .testimonial-content {
+      padding: 2rem 1.5rem;
+    }
+
+    .testimonial-quote p {
+      font-size: 1rem;
+    }
+
+    .carousel-nav {
+      gap: 1rem;
+    }
+
+    .carousel-btn {
+      width: 45px;
+      height: 45px;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .testimonials-title {
+      font-size: 1.8rem;
+    }
+
+    .testimonial-content {
+      padding: 1.5rem 1rem;
+    }
+
+    .testimonial-author {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .author-info {
+      text-align: center;
+    }
+
+    .carousel-nav {
+      gap: 0.5rem;
+    }
+
+    .carousel-btn {
+      width: 40px;
+      height: 40px;
+      font-size: 0.9rem;
+    }
+
+    .indicator {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  /* Extra small screens - stack layout vertically */
+  @media (max-width: 576px) {
+    .testimonials-carousel {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .carousel-btn {
+      width: 45px;
+      height: 45px;
+      font-size: 1rem;
+    }
+
+    .prev-btn, .next-btn {
+      align-self: flex-start;
+    }
+
+    .next-btn {
+      align-self: flex-end;
+    }
+  }
+
+  /* Contact Section Responsive */
+  @media (max-width: 768px) {
+    .contact-me-title {
+      font-size: 2.2em;
+    }
+
+    .talk-to-me-title,
+    .drop-message-title {
+      font-size: 1.5em;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .contact-me-title {
+      font-size: 1.8em;
+    }
+
+    .talk-to-me-title,
+    .drop-message-title {
+      font-size: 1.3em;
+    }
+
+    .contact-card {
+      padding: 20px;
+    }
+  }
+
+  /* Footer Responsive */
+  @media (max-width: 480px) {
+    .copyright-text {
+      font-size: 0.85em;
+    }
+  }
+
+  /* Scroll to Top Button Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      padding: 0 1rem;
+    }
+
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      text-align: center;
+    }
+
+    .footer-social {
+      justify-content: center;
+    }
+    .footer-bottom-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .footer {
+      padding: 2rem 0 1rem 0;
+    }
+
+    .footer-content {
+      gap: 1.5rem;
+    }
+
+    .footer-social {
+      gap: 0.75rem;
+    }
+
+    .footer-social-link {
+      width: 40px;
+      height: 40px;
+      font-size: 1rem;
+    }
+
+    .scroll-to-top-btn {
+      bottom: 1.5rem;
+      right: 1.5rem;
+      width: 45px;
+      height: 45px;
+      font-size: 1rem;
+   }
+  }
+  
+/* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      padding: 0 1rem;
+    }
+
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      text-align: center;
+    }
+
+    .footer-social {
+      justify-content: center;
+    }
+    .footer-bottom-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .footer {
+      padding: 2rem 0 1rem 0;
+    }
+
+    .footer-content {
+      gap: 1.5rem;
+    }
+
+    .footer-social {
+      gap: 0.75rem;
+    }
+
+    .footer-social-link {
+      width: 40px;
+      height: 40px;
+      font-size: 1rem;
+    }
+
+    .scroll-to-top-btn {
+      bottom: 1.5rem;
+      right: 1.5rem;
+      width: 45px;
+      height: 45px;
+      font-size: 1rem;
+    }
+  }
